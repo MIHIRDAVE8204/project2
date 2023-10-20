@@ -1,0 +1,276 @@
+.search {
+  background-color: rgb(32, 8, 8);
+  color: rgb(239, 233, 233);
+  font-size: 30px;
+  height: 50px;
+  width: 550px;
+  border-radius: 10px;
+  /* margin-bottom: 50px; */
+
+}
+
+
+.search[type="text"]:hover {
+  border: 5px solid  rgb(233, 23, 23);
+}
+
+::placeholder {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 50px;
+  position: sticky;
+  background-color: black;
+
+  color: antiquewhite;
+
+}
+
+ul {
+  list-style: none;
+  
+
+
+}
+
+li {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  /* margin-bottom: 2%; */
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* .navigation{ */
+/* background-color: black;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-size: 40px;
+  position: sticky;
+
+  color: antiquewhite; */
+
+
+
+.navigation li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.backgroundimg img {
+  height: 100%;
+  width: 100%;
+  opacity: 80px;
+}
+
+/* card hover */
+.A1 img {
+  --s: 400px;
+  /* the size of the image */
+  --b: 8px;
+  /* the border thickness*/
+  --g: 0px;
+  /* the gap */
+  --c: rgb(32, 8, 8);
+  /* the color */
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid #0009;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: .5s;
+}
+
+img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+img+img {
+  border-radius: 50%;
+}
+
+
+
+.cardmain {
+  display: flex;
+  flex-direction: row;
+  justify-self: auto;
+  margin-top: 25px;
+}
+
+.card {
+  margin-right: 20px;
+  width: 20%;
+}
+
+button {
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  color: blue;
+  background-color: black;
+  height: 70px;
+  width: 200px;
+}
+
+ .hight{
+  width: 400px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+
+
+.centered {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.likhit {
+  margin-top: 175px;
+  font-size: 20px;
+  font-weight: bolder;
+  color:white;
+
+}
+
+.textstly {
+  text-align: center;
+  text-shadow: 20px;
+  text-justify: auto;
+  font-size: xx-large;
+  color:white;
+
+}
+
+.textstly h1 b {
+  font-size: 40px;
+  margin-top: 150px;
+}
+
+.textstly{
+  height: 500px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  /* border: 5px solid black; */
+}
+
+b {
+  font-size: 50px;
+  text-align: center;
+  /* border: 2px inset black; */
+}
+
+
+
+.new1 {
+  display: flex;
+  /* flex-direction: row; */
+  margin-top: 20px;
+}
+
+.new2 {
+  height: 70px;
+  width: 650px;
+  opacity: 0.5;
+  margin-left: 25%;
+  background-color: rgba(0, 0, 0, 0.637);
+
+
+}
+
+.card button {
+  color: rgb(238, 236, 236);
+  background-color: rgb(32, 8, 8);
+  height: 80px;
+  width: 93%;
+  /* margin-left: 25px; */
+  font-size: 40px;
+}
+
+button:hover {
+  border: 5px solid  rgb(10, 40, 125);
+}
+
+.footer {
+  margin-top: 5px;
+  text-decoration: none;
+  height: 500px;
+  max-width: 100%;
+  font-size: 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  /* justify-content: ; */
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.footer li {
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.footerfontawesome {
+  display: flex;
+  flex-direction: row;
+}
+
+.one1,
+.Two2,
+.three3,
+.four4 {
+  padding: 100px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* margin: 30px; */
+  width: 25%;
+  text-align: center;
+  align-items: center;
+}
+
+.footer h3 {
+  margin: 40px;
+
+}
+
+.copyright {
+  bottom: 0;
+  margin-top: 20px;
+  font-size: 21px;
+  opacity: 0.8;
+
+  /* margin-right: 80px; */
+
+}
+li a{
+  color: white;
+}
