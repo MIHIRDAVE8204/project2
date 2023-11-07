@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="signup.css">
+    <script src="validation.js"></script>
 </head>
 
 <body>
@@ -16,14 +17,14 @@
             <h2>Welcome</h2>
             <label>
                 <span>Email</span>
-                <input type="email" />
+                <input id="Emailsecond" type="email" />
             </label>
             <label>
                 <span>Password</span>
-                <input type="password" />
+                <input id="Passwordsecond" type="password" />
             </label>
             <p class="forgot-pass">Forgot password?</p>
-            <button type="button" class="submit">Sign In</button>
+            <button type="button" onclick="signin()" class="submit">Sign In</button>
 
         </div>
         <div class="sub-cont">
@@ -45,30 +46,30 @@
                 <h2>Create your Account</h2>
 
                 <label>
-                    <input type="text" placeholder="Name">
+                    <input id="Name" type="text" placeholder="Name">
                 </label>
 
                 <label class="radio">
-                    <input type="radio" id="" name="Gender">
+                    <input id="Male" type="radio" name="Gender">
                     Male
-                    <input type="radio" id="" name="Gender">
+                    <input id="Female" type="radio" name="Gender">
                     Female
                 </label>
 
                 <label>
-                    <input type="date">
+                    <input id="Date" type="date">
                 </label>
 
                 <label>
-                    <input type="email" placeholder="Enter your mail " />
+                    <input id="Email" type="email" placeholder="Enter your mail " />
                 </label>
 
                 <label>
-                    <input type="password" placeholder="Enter your password" />
+                    <input id="Password" type="password" placeholder="Enter your password" />
                 </label>
 
                 <label>
-                    <select name="dropdown" id="" class="dropdown">
+                    <select name="dropdown" id="City" class="dropdown">
                         <option value="none">Select Your City</option>
                         <option value="Ahmedabad">Ahmedabad</option>
                         <option value="Baroda">Baroda</option>
@@ -79,10 +80,10 @@
                     </select>
                 </label>
                 <label class="checkbox">
-                    <input type="checkbox" >
+                    <input id="Checkbox" type="checkbox" >
                     Agree all terms
                 </label>
-                <button type="button" class="submit">Sign Up</button>
+                <button type="button" class="submit" onclick="Register()">Sign Up</button>
 
             </div>
         </div>
